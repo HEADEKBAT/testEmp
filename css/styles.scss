@@ -590,10 +590,16 @@ body {
         border-radius: 3px;
         padding: 2px 10px;
         height: 48px;
-
+        &:hover,
+        &:focus,
+        &:active,
+        &:target {
+            background: #fff;
+            border-color: var(--accent-bg);
+        }
         &--file {
             padding: 0;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.85);
             height: 52px;
         }
     }

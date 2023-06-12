@@ -860,9 +860,14 @@ body {
   height: 48px;
 }
 
+.form-body__input:hover, .form-body__input:focus, .form-body__input:active, .form-body__input:target {
+  background: #fff;
+  border-color: var(--accent-bg);
+}
+
 .form-body__input--file {
   padding: 0;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
   height: 52px;
 }
 
